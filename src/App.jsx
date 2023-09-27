@@ -8,7 +8,6 @@ import CreateOrder, {
 } from "./features/order/CreateOrder";
 
 import Order, { loader as orderLoader } from "./features/order/Order";
-import loader from "./ui/Loader";
 import AppLayout from "./ui/AppLayout";
 const router = createBrowserRouter([
   {
